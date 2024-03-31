@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+seaborn = "*"
+numpy = "*"
+pandas = "*"
+pillow = "*"
+pytesseract = "*"
+opencv-python = "*"
+scipy = "*"
+tk = "*"
+pygame = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
+
+[pipenv]
+allow_prereleases = true
